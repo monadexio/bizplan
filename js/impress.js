@@ -282,6 +282,12 @@
                 lastEntered = step;
             }
         };
+
+        var onStepWillEnter = function (step) {
+            if (lastEntered !== step) {
+                triggerEvent(step, "impress:stepwillenter");
+            }
+        };
         
         // `onStepLeave` is called whenever the step element is left
         // but the event is triggered only if the step is the same as
@@ -389,7 +395,7 @@
             // get and init steps
             steps = $$(".step", root);
             steps.forEach( initStep );
-            
+
             // set a default initial state of the canvas
             currentState = {
                 translate: { x: 0, y: 0, z: 0 },
@@ -484,8 +490,9 @@
             // trigger leave of currently active element (if it's not the same step again)
             if (activeStep && activeStep !== el) {
                 onStepLeave(activeStep);
+                onStepWillEnter(el);
             }
-            
+
             // Now we alter transforms of `root` and `canvas` to trigger transitions.
             //
             // And here is why there are two elements: `root` and `canvas` - they are
@@ -723,7 +730,7 @@
         }, false);
         
         // delegated handler for clicking on the links to presentation steps
-        document.addEventListener("click", function ( event ) {
+/*        document.addEventListener("click", function ( event ) {
             // event delegation with "bubbling"
             // check if event target (or any of its parents is a link)
             var target = event.target;
@@ -746,9 +753,9 @@
                 event.preventDefault();
             }
         }, false);
-        
+*/
         // delegated handler for clicking on step elements
-        document.addEventListener("click", function ( event ) {
+ /*       document.addEventListener("click", function ( event ) {
             var target = event.target;
             // find closest step element that is not active
             while ( !(target.classList.contains("step") && !target.classList.contains("active")) &&
@@ -760,7 +767,26 @@
                 event.preventDefault();
             }
         }, false);
-        
+*/        
+
+        window.addEventListener("click", function ( event ) {
+            if( event.target.tagName !== "A" ) {
+                if(event.which === 1) {
+                    api.next();
+                } else {
+                    api.prev();    
+                }
+                event.preventDefault();
+            }
+        });
+        window.addEventListener('contextmenu', function(event){
+            if( event.target.tagName !== "A" ) {
+                api.prev();
+                event.preventDefault();
+                return false;    
+            }
+        });
+ 
         // touch handler to detect taps on the left and right side of the screen
         // based on awesome work of @hakimel: https://github.com/hakimel/reveal.js
         document.addEventListener("touchstart", function ( event ) {
