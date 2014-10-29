@@ -118,9 +118,15 @@ Date:   October 28th, 2014
 # Financials
 
 ---
-= data-x='7000' data-y='-8000'
+= data-x='6000' data-y='-8000'
 # Questions
 
 ---
-= data-x='7000' data-y='-8000'
+= data-x='6000' data-y='-9000'
 # Thanks!
+
+<!---
+1. gem install mdpress
+2. mdpress README.md
+3. view presentation at README/index.html
+-->
