@@ -3,9 +3,13 @@ Title:  Business Plan for Monadex
 Author: HC Liu
 Date:   October 28th, 2014
 ---
-# Monadex Business Plan
+# Business Plan
 
 > A better way to profit from your ideas
+
+### Monadex Team
+
+`Oct, 2014`
 
 ---
 = data-x='0' data-y='-1000'
@@ -15,7 +19,7 @@ Date:   October 28th, 2014
 
 ---
 = data-x='1000' data-y='-1000'
-# Focus on your design and sales
+## Focus on your design and sales
 
 - Zero cost upfront
 - Integration with mainstream social platform and payment methods
@@ -30,55 +34,87 @@ Date:   October 28th, 2014
 
 ---
 = data-x='2000' data-y='-2000'
-# Abstract away manufacturing
+## Manufacturing should be abstracted away
 
+- Merchants come up with blue prints
 - Consumers decide what to be manufactured
-- Merchants come up with potential products for consumers to choose from
-- Encourages the innovation in design and sales
+- Manufacturing takes place behind the scene
+- Encourage innovation in both design and sales
 - Make manufacturing more efficient
 
 ---
 = data-x='2000' data-y='-3000'
-# Solution
+# How?
 
 - Crowd sourcing
 - Social network
 - Mobile payment
-- Ease of use
+- User friendly
 
 ---
 = data-x='3000' data-y='-3000'
-# Work Flow
+## Work Flow
 
 - Design the best Tshirt
-- Launch your campaign with a predefined goal
+- Launch your campaign with a preset goal
 - Embed the campaign in your website or social platform
-- Consumers order Tshirts with the easiest payment method available
-- Tshirt will be manufactured when the goal is reached
-- No upfront cost, just focus on what you are good at: design and sales
+- Consumers order Tshirts with the easiest payment option
+- Tshirts will be manufactured and shipped when goal is reached
 
 ---
 = data-x='3000' data-y='-3000'
-# Use case: NGO fund-raising
+## Use case
 
----
-= data-x='3000' data-y='-3000'
-# Use case: College reunion
+- NGO fund-raising
+- College reunion
+- Team building
 
 ---
 = data-x='3000' data-y='-4000'
 # Market Size
 
+> We do not know for sure
+
+---
+= data-x='4000' data-y='-4000'
+## Some references
+
+- teespring.com
+  - 2,206,364 tshirts produced since `Oct, 2012`
+  - Hit `$750,000` monthly revenue in `March, 2013`
+  - `50%` month to month growth rate
+
 ---
 = data-x='4000' data-y='-5000'
 # Competition
+
+> A proven idea which needs more innovation
+
+---
+= data-x='5000' data-y='-5000'
+## Few companies
+
+- teespring.com
+- tshirt.designcrowd.com
+- threadless.com
 
 ---
 = data-x='5000' data-y='-6000'
 # Team
 
+> Talent wins games, but teamwork and intelligence wins championships.
+
+> *- Michael Jordan*
+
 ---
-= data-x='7000' data-y='-7000'
+= data-x='6000' data-y='-6000'
+## Founders
+
+- Hongchao Liu
+- Hengqing Hu
+
+---
+= data-x='6000' data-y='-7000'
 # Financials
 
 ---
@@ -86,5 +122,5 @@ Date:   October 28th, 2014
 # Questions
 
 ---
-= data-x='7000' data-y='-9000'
+= data-x='7000' data-y='-8000'
 # Thanks!
