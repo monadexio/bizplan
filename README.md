@@ -2,6 +2,9 @@
 Title:  Business Plan for Monadex
 Author: HC Liu
 Date:   October 28th, 2014
+Summary: 1. gem install mdpress
+         2. mdpress README.md
+         3. view presentation at README/index.htm
 ---
 # Business Plan
 
@@ -124,9 +127,3 @@ Date:   October 28th, 2014
 ---
 = data-x='6000' data-y='-9000'
 # Thanks!
-
-<!---
-1. gem install mdpress
-2. mdpress README.md
-3. view presentation at README/index.html
--->
